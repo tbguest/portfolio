@@ -1,0 +1,29 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+.card {
+  width:25%;
+  border: 1px grey solid;
+  border-radius: 3px;
+}
+
+.card__header {
+  font-size: 24px;
+  color: black;
+  padding: 5px;
+}
+
+.card_body {
+  font-size: 24px;
+  color: grey;
+  padding: 5px;
+}
+
+.card__image {
+  background: url('assets/img/parrot.jpg');
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
